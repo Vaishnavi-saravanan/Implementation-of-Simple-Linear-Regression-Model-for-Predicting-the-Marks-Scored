@@ -79,6 +79,12 @@ print("RMSE= ",rmse)
 ![Screenshot 2023-08-24 090529](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/a7851792-4ff0-4187-a992-fc18747d179e)
 ![Screenshot 2023-08-24 095130](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/f0e8ff61-5231-4fb2-a6d9-c4b7b24ba163)
 ![Screenshot 2023-08-24 095137](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/c340470b-1ed8-4dbb-af36-e215ee6d8853)
+
+
+![Screenshot 2023-08-24 095144](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/82c79516-9123-4978-b236-48cc5aac6864)
+
+
+
 ![Screenshot 2023-08-24 090549](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/55131d4e-4721-499b-85c6-0b4fb000659a)
 ![Screenshot 2023-08-24 090558](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/c34fef43-115d-4cef-b60c-de546449c2ce)
 ![Screenshot 2023-08-24 090605](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/1ae04315-b235-4bcf-917b-21f37e81b6d9)
