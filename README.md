@@ -91,10 +91,10 @@ print("RMSE= ",rmse)
 ![Screenshot 2023-08-24 090529](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/fc426798-a55b-4dc4-94e9-bb8ba03232f2)
 
 # Values of Y prediction
-![Screenshot 2023-08-24 090540](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/625c9e19-5a58-452a-8b85-a6b7616e55de)
+![Screenshot 2023-08-24 153836](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/787c99ae-159e-4b54-ba44-a1256da439df)
 
 #  Array values of Y test
-
+![Screenshot 2023-08-24 153842](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/c1d00589-2ad4-46ce-98c6-9a6328e30150)
 
 # Training Set Graph
 ![Screenshot 2023-08-24 090549](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/0cb0ce0d-362d-4764-8627-ce44f2d2298b)
