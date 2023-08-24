@@ -8,10 +8,15 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1.Import the required libraries and read the dataframe.
+
+2.Assign hours to X and scores to Y.
+
+3.Implement training set and test set of the dataframe
+
+4.Plot the required graph both for test data and training data.
+
+5.Find the values of MSE , MAE and RMSE. 
 
 ## Program:
 ```
@@ -37,7 +42,7 @@ x
 y=df.iloc[:,1].values
 y
 
-#splitting train and test data
+# splitting train and test data
 from sklearn.model_selection import train_test_split
 x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=1/3,random_state=0)
 
@@ -46,7 +51,7 @@ regressor=LinearRegression()
 regressor.fit(x_train,y_train)
 y_pred=regressor.predict(x_test)
 
-#displaying predicted values
+# displaying predicted values
 y_pred
 
 plt.scatter(x_train,y_train,color='brown')
@@ -73,20 +78,32 @@ rmse=np.sqrt(mse)
 print("RMSE= ",rmse)
 ```
 ## Output:
-![Screenshot 2023-08-24 090506](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/525e207b-4ef9-42d9-89d3-b06d8fc5946b)
-![Screenshot 2023-08-24 090513](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/541e04e1-279c-4fa9-8b42-0f3df88985b7)
-![Screenshot 2023-08-24 090520](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/a617b3b2-deb5-4427-a39d-763c8e37bf4e)
-![Screenshot 2023-08-24 090529](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/a7851792-4ff0-4187-a992-fc18747d179e)
-![Screenshot 2023-08-24 095130](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/f0e8ff61-5231-4fb2-a6d9-c4b7b24ba163)
-![Screenshot 2023-08-24 095137](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/c340470b-1ed8-4dbb-af36-e215ee6d8853)
+# df.head()
+![Screenshot 2023-08-24 090506](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/10870dc6-ba5b-468e-af3f-1e31b22c1f35)
+
+#  df.tail()
+![Screenshot 2023-08-24 090513](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/0a2c55fc-f843-4138-b37d-d3c99a4b0d35)
+
+# Array value of X
+![Screenshot 2023-08-24 090520](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/ba2cb443-fcce-435a-b2a3-c81bec14c885)
+
+# Array value of Y
+![Screenshot 2023-08-24 090529](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/fc426798-a55b-4dc4-94e9-bb8ba03232f2)
+
+# Values of Y prediction
+![Screenshot 2023-08-24 090540](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/625c9e19-5a58-452a-8b85-a6b7616e55de)
+
+#  Array values of Y test
 
 
-![Screenshot 2023-08-24 095144](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/82c79516-9123-4978-b236-48cc5aac6864)
+# Training Set Graph
+![Screenshot 2023-08-24 090549](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/0cb0ce0d-362d-4764-8627-ce44f2d2298b)
 
+# Test Set Graph
+![Screenshot 2023-08-24 090558](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/0c2c108c-4724-4240-80c8-f3cd2b88b640)
 
+# Values of MSE, MAE and RMSE
+![Screenshot 2023-08-24 090605](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/64f372d2-8885-4a2a-a277-a1bcb35594c0)
 
-![Screenshot 2023-08-24 090549](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/55131d4e-4721-499b-85c6-0b4fb000659a)
-![Screenshot 2023-08-24 090558](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/c34fef43-115d-4cef-b60c-de546449c2ce)
-![Screenshot 2023-08-24 090605](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/1ae04315-b235-4bcf-917b-21f37e81b6d9)
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
