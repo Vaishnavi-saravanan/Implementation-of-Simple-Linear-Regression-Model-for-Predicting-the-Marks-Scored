@@ -79,31 +79,35 @@ print("RMSE= ",rmse)
 ```
 ## Output:
 # df.head()
-![Screenshot 2023-08-24 090506](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/10870dc6-ba5b-468e-af3f-1e31b22c1f35)
+![Screenshot 2023-10-05 093851](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/3e171905-1a2b-422f-b1aa-95971e62c9a4)
 
 #  df.tail()
-![Screenshot 2023-08-24 090513](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/0a2c55fc-f843-4138-b37d-d3c99a4b0d35)
+![Screenshot 2023-10-05 093857](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/d0cdf535-17df-4ddd-ae02-cd9090378e76)
 
 # Array value of X
-![Screenshot 2023-08-24 090520](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/ba2cb443-fcce-435a-b2a3-c81bec14c885)
+
+![Screenshot 2023-10-05 093904](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/20673ad5-b4b0-46bb-88e1-225fe82aceb9)
 
 # Array value of Y
-![Screenshot 2023-08-24 090529](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/fc426798-a55b-4dc4-94e9-bb8ba03232f2)
+![Screenshot 2023-10-05 093915](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/9d8300fd-cf28-4bcf-a4ad-a763068bb660)
 
 # Values of Y prediction
-![Screenshot 2023-08-24 153836](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/787c99ae-159e-4b54-ba44-a1256da439df)
+![Screenshot 2023-10-05 094729](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/5ec7fcda-50d9-431f-adca-513cc612af02)
+
 
 #  Array values of Y test
-![Screenshot 2023-08-24 153842](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/c1d00589-2ad4-46ce-98c6-9a6328e30150)
+![Screenshot 2023-10-05 094736](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/f1319824-d658-4633-b01d-a34a74b3739f)
+
 
 # Training Set Graph
-![Screenshot 2023-08-24 090549](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/0cb0ce0d-362d-4764-8627-ce44f2d2298b)
+![Screenshot 2023-10-05 094741](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/a57595d5-5042-4b63-bf4b-f7b7068f0cf9)
 
 # Test Set Graph
-![Screenshot 2023-08-24 090558](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/0c2c108c-4724-4240-80c8-f3cd2b88b640)
+
+![Screenshot 2023-10-05 094746](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/0a01b8c8-2116-4f28-bcbb-f2d09df4a63e)
 
 # Values of MSE, MAE and RMSE
-![Screenshot 2023-08-24 090605](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/64f372d2-8885-4a2a-a277-a1bcb35594c0)
+![Screenshot 2023-10-05 094751](https://github.com/Vaishnavi-saravanan/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118541897/907e0588-9aae-4a5e-befd-cf694116e924)
 
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
